@@ -7,3 +7,9 @@ with open('red.csv', 'r') as file:
         	print(each_row)
           x=tuple(each_row)
           list_1.append(x)
+list_2=[]
+for i in list_1:
+    if i[0] == 'Detached':
+          list_2.append(i)
+          
+print(avg(list_2[6]))
