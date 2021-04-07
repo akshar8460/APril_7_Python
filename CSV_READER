@@ -1,0 +1,7 @@
+import csv
+
+list_1=[]
+with open('red.csv', 'r') as file:
+  	reader = csv.reader(file)
+  	for each_row in reader:
+        	print(each_row)
